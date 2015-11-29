@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Перечень ключевых слов">
+    <meta name="description" content="Содержимое мета-тега «description»">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverClean</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <!-- Popups begin -->
+    <div class="popup-overlay"></div>
+
+    <div id="popup_1" class="popup-big log-in">
+        <div class="close sprite-close-icon"></div>
+        <div class="title">Вхід</div>
+        <form action="#">
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Пароль">
+            <input type="submit" value="увійти">
+        </form>
+        <div class="recover-email popup-open" data-popup="2">Забули пароль?</div>
+    </div>
+
+    <div id="popup_2" class="popup-big recover">
+        <div class="back sprite-back-icon popup-open" data-popup="1"></div>
+        <div class="close sprite-close-icon"></div>
+        <div class="title">Восстановления пароля</div>
+        <div class="explanation">Введіть e-mail, яки Ви вводили при реєстрації і ми вишлемо
+            <br>Вам лист з інструкціями по відновленню паролю.</div>
+        <form action="#">
+            <input type="email" placeholder="E-mail">
+            <input type="submit" value="вислати">
+        </form>
+    </div>
+    <!-- Popups end -->
+
+
+    <header class="content-center clearfix">
+        <a href="/">
+            <img class="logo" src="img/logo.png" alt="logo">
+        </a>
+        <div class="phone">
+            <i class="sprite-phone-icon"></i> 0-800-000-000
+        </div>
+        <div class="location-wrap">
+            <div class="location popup-click">
+                <i class="location-icon sprite-location-icon"></i> Львів
+                <i class="sprite-drop-down1-icon"></i></div>
+            <div class="popup-body clearfix">
+                <div class="triangle"></div>
+                <h5>Живете в <span>Києві</span> і Вам потрібно прибрати?</h5>
+                <div class="text">
+                    Залиште свій e-mail та дізнайтесь про запуск першими,
+                    <br> а також отримуйте знижку на перше прибирання!
+                </div>
+                <form action="">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Отримати">
+                </form>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Про нас</a>
+                </li>
+                <li>
+                    <a href="#">Допомога</a>
+                </li>
+                <li class="popup-open" data-popup="1">
+                    <i class="sprite-login-icon"></i>Увійти
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Order content begin -->
+    <div class="order content-flex">
+        <section class="content-center clearfix">
+            <div class="title">Замовлення прибирання</div>
+            <div class="progress clearfix">
+                <div class="step passed">
+                    <div class="icon">
+                        1
+                        <i class="daw sprite-daw-icon"></i>
+                    </div>
+                    Площа квартири
+                </div>
+                <div class="step passed">
+                    <div class="icon sprite-daw-icon">
+                        2
+                        <i class="daw sprite-daw-icon"></i>
+                    </div>
+                    Дата і час
+                </div>
+                <div class="step current">
+                    <div class="icon sprite-daw-icon">
+                        3
+                        <i class="daw sprite-daw-icon"></i>
+                    </div>
+                    Ваші дані
+                </div>
+                <div class="step">
+                    <div class="icon sprite-daw-icon">
+                        4
+                        <i class="daw sprite-daw-icon"></i>
+                    </div>
+                    Пiдтвердження
+                </div>
+            </div>
+            <div class="login">
+                <span class="popup-open" data-popup="1">Увійдіть,</span> якщо Ви уже зареєстровані
+            </div>
+            <form action="">
+                <div class="form-block">
+                    <div class="head">
+                        Адреса
+                    </div>
+                    <div class="select">
+                        <div class="select-data">Виберіть місто</div>
+                        <div class="btn"><i class="sprite-drop-down2-icon"></i></div>
+                        <ul class="drop">
+                            <li>Львів</li>
+                        </ul>
+                        <input type="hidden">
+                    </div>
+                    <input type="text" placeholder="Вулиця, будинок, номер квартири">
+                </div>
+                <div class="form-block">
+                    <div class="head">
+                        Особисті дані
+                    </div>
+                    <input type="text" placeholder="Ваше ім'я">
+                    <input type="text" placeholder="+38(___) ___ __ __">
+                </div>
+                <div class="form-block">
+                    <div class="head">
+                        E-mail і пароль
+                        <br><span>Вкажіть ці данні для реєстрації на сайті</span>
+                    </div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Пароль">
+                    <label class="agreement-radio">
+                        <input type="checkbox" name="gender" value="female"><i class="icon"></i> Погоджуюсь з <a target="_blank" href="agreement.html">Договором публiчноi оферти</a>
+                    </label>
+                    <input type="text" placeholder="Промо-код">
+                </div>
+                <button class="next send">Відправити</button>
+            </form>
+        </section>
+    </div>
+    <!-- Order content end -->
+
+
+    <div class="footer-wrap content-flex">
+        <footer class="content-center clearfix">
+            <ul class="useful-links">
+                <li>
+                    <a href="#">Про нас</a>
+                </li>
+                <li class="separator"></li>
+                <li>
+                    <a href="#">Допомога</a>
+                </li>
+                <li class="separator"></li>
+                <li>
+                    <a href="#">Договір публічної оферти</a>
+                </li>
+            </ul>
+            <div class="info">
+                <address>
+                    <a href="mailto:info@everyclean.com.ua">info@everyclean.com.ua</a>
+                    0-800-00-000
+                </address>
+                <div class="pay">
+                    Оплата картками: <i class="sprite-cards-icon"></i>
+                </div>
+            </div>
+            <div class="social-links">
+                <div class="title">Ми в соціальних мережах</div>
+                <a href="#" target="_blank" class="link sprite-fb-icon"></a>
+                <a href="#" target="_blank" class="link sprite-ig-icon"></a>
+                <div class="copyright">(c) 2015, Everyclean</div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!--[if lt IE 9]>
+        <script src="libs/html5shiv/es5-shim.min.js"></script>
+        <script src="libs/html5shiv/html5shiv.min.js"></script>
+        <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+        <script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Jquery -->
+    <script src="libs/jquery/jquery-1.7.2.min.js"></script>
+    <script src="libs/jquery/jquery-ui.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

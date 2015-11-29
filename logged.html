@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Перечень ключевых слов">
+    <meta name="description" content="Содержимое мета-тега «description»">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverClean</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <!-- Popups begin -->
+    <div class="popup-overlay"></div>
+
+    <div id="popup_1" class="popup-big log-in">
+        <div class="close sprite-close-icon"></div>
+        <div class="title">Вхід</div>
+        <form action="#">
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Пароль">
+            <input type="submit" value="увійти">
+        </form>
+        <div class="recover-email popup-open" data-popup="2">Забули пароль?</div>
+    </div>
+
+    <div id="popup_2" class="popup-big recover">
+        <div class="back sprite-back-icon popup-open" data-popup="1"></div>
+        <div class="close sprite-close-icon"></div>
+        <div class="title">Восстановления пароля</div>
+        <div class="explanation">Введіть e-mail, яки Ви вводили при реєстрації і ми вишлемо
+            <br>Вам лист з інструкціями по відновленню паролю.</div>
+        <form action="#">
+            <input type="email" placeholder="E-mail">
+            <input type="submit" value="вислати">
+        </form>
+    </div>
+    <!-- Popups end -->
+
+
+    <header class="content-center clearfix">
+        <a href="/">
+            <img class="logo" src="img/logo.png" alt="logo">
+        </a>
+        <div class="phone">
+            <i class="sprite-phone-icon"></i> 0-800-000-000
+        </div>
+        <div class="location-wrap">
+            <div class="location popup-click">
+                <i class="location-icon sprite-location-icon"></i> Львів
+                <i class="sprite-drop-down1-icon"></i></div>
+            <div class="popup-body clearfix">
+                <div class="triangle"></div>
+                <h5>Живете в <span>Києві</span> і Вам потрібно прибрати?</h5>
+                <div class="text">
+                    Залиште свій e-mail та дізнайтесь про запуск першими,
+                    <br> а також отримуйте знижку на перше прибирання!
+                </div>
+                <form action="">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Отримати">
+                </form>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Про нас</a>
+                </li>
+                <li>
+                    <a href="#">Допомога</a>
+                </li>
+                <li>
+                    <i class="sprite-login-icon"></i><a href="#">Марина</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Logged content begin -->
+    <div class="logged-wrap content-flex">
+        <section class="content-center">
+            <div class="tabs-list clearfix">
+                <div class="item" data-tab="1">Рахунки</div>
+                <div class="item" data-tab="2">Редагувати профiль</div>
+            </div>
+            <div id="tab_1" class="expense-list tab clearfix">
+                <div class="expense">
+                    <div class="date-icon sprite-pay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири:</dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса:</dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть:</dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-paid-icon"></i> Рахунок оплачено, дякуемо.
+                    </div>
+                </div>
+                <div class="expense unpaid">
+                    <div class="date-icon sprite-unpay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири: </dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса: </dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть: </dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-unpaid-icon"></i> Рахунок не оплачений.
+                    </div>
+                    <a href="#" class="pay-link">оплатити</a>
+                </div>
+                <div class="expense">
+                    <div class="date-icon sprite-pay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири: </dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса: </dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть: </dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-paid-icon"></i> Рахунок оплачено, дякуемо.
+                    </div>
+                </div>
+                <div class="expense">
+                    <div class="date-icon sprite-pay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири: </dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса: </dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть: </dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-paid-icon"></i> Рахунок оплачено, дякуемо.
+                    </div>
+                </div>
+                <div class="expense">
+                    <div class="date-icon sprite-pay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири: </dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса: </dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть: </dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-paid-icon"></i> Рахунок оплачено, дякуемо.
+                    </div>
+                </div>
+                <div class="expense">
+                    <div class="date-icon sprite-pay-day-icon"></div>
+                    <div class="date">10 липня 2015 року</div>
+                    <dl>
+                        <dt>Прибирання 3к квартири: </dt>
+                        <dd>6годин 30 хвилин</dd>
+                        <dt>Адреса: </dt>
+                        <dd>Площа Ринок,буд. 14</dd>
+                        <dt>Вартiсть: </dt>
+                        <dd>900 грн</dd>
+                    </dl>
+                    <div class="status">
+                        <i class="sprite-paid-icon"></i> Рахунок оплачено, дякуемо.
+                    </div>
+                </div>
+                <div class="more">
+                    бiльше
+                </div>
+            </div>
+            <div id="tab_2" class="profile tab clearfix">
+                <div class="name">Марiя Iванова</div>
+                <form action="#">
+                    <div class="line">
+                        <label class="title" for="email">E-mail</label>
+                        <input type="email" value="maria@gmail.com" id="email">
+                    </div>
+                    <div class="line">
+                        <label class="title" for="name">Iм’я</label>
+                        <input type="text" value="Мария" id="name">
+                    </div>
+                    <div class="line changed">
+                        <label class="title" for="surname">Прізвище</label>
+                        <input type="text" value="Иванова" id="surname">
+                    </div>
+                    <div class="line">
+                        <div class="title">Стать</div>
+                        <label class="radio"><input type="radio" name="gender" value="female" checked><i class="icon"></i>жiноча</label>
+                        <label class="radio"><input type="radio" name="gender" value="male"><i class="icon"></i>чоловiча</label>
+                    </div>
+                    <div class="line">
+                        <label class="title" for="phone">Телефон</label>
+                        <input type="text" value="+38(096) 566 34 34" id="phone">
+                    </div>
+                    <div class="line">
+                        <label class="title" for="address">Адреса</label>
+                        <input type="text" value="Площа Ринок, буд.13" id="address">
+                    </div>
+                    <input type="submit" value="зберегти">
+                </form>
+
+            </div>
+        </section>
+    </div>
+    <!-- Logged content end -->
+
+
+    <div class="footer-wrap content-flex">
+        <footer class="content-center clearfix">
+            <ul class="useful-links">
+                <li>
+                    <a href="#">Про нас</a>
+                </li>
+                <li class="separator"></li>
+                <li>
+                    <a href="#">Допомога</a>
+                </li>
+                <li class="separator"></li>
+                <li>
+                    <a href="#">Договір публічної оферти</a>
+                </li>
+            </ul>
+            <div class="info">
+                <address>
+                    <a href="mailto:info@everyclean.com.ua">info@everyclean.com.ua</a>
+                    0-800-00-000
+                </address>
+                <div class="pay">
+                    Оплата картками: <i class="sprite-cards-icon"></i>
+                </div>
+            </div>
+            <div class="social-links">
+                <div class="title">Ми в соціальних мережах</div>
+                <a href="#" target="_blank" class="link sprite-fb-icon"></a>
+                <a href="#" target="_blank" class="link sprite-ig-icon"></a>
+                <div class="copyright">(c) 2015, Everyclean</div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!--[if lt IE 9]>
+        <script src="libs/html5shiv/es5-shim.min.js"></script>
+        <script src="libs/html5shiv/html5shiv.min.js"></script>
+        <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+        <script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Jquery -->
+    <script src="libs/jquery/jquery-1.7.2.min.js"></script>
+    <script src="libs/jquery/jquery-ui.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
